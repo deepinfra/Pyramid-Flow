@@ -18,10 +18,10 @@ from torchvision import transforms
 from copy import deepcopy
 from typing import Any, Callable, Dict, List, Optional, Union
 from accelerate import Accelerator, cpu_offload
-from diffusion_schedulers import PyramidFlowMatchEulerDiscreteScheduler
-from video_vae.modeling_causal_vae import CausalVideoVAE
+from ..diffusion_schedulers import PyramidFlowMatchEulerDiscreteScheduler
+from ..video_vae.modeling_causal_vae import CausalVideoVAE
 
-from trainer_misc import (
+from ..trainer_misc import (
     all_to_all,
     is_sequence_parallel_initialized,
     get_sequence_parallel_group,

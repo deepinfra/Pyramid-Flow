@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import math
 
-from utils import (
+from ..utils import (
     get_context_parallel_group,
     get_context_parallel_rank,
     get_context_parallel_world_size,
