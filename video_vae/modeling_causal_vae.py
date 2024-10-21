@@ -22,7 +22,7 @@ from .modeling_enc_dec import (
 )
 from .modeling_causal_conv import CausalConv3d
 
-from utils import (
+from ..utils import (
     is_context_parallel_initialized,
     get_context_parallel_group,
     get_context_parallel_world_size,

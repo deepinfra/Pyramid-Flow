@@ -8,7 +8,7 @@ from einops import rearrange
 from timm.models.layers import trunc_normal_
 from torch import Tensor
 
-from utils import (
+from ..utils import (
     is_context_parallel_initialized,
     get_context_parallel_group,
     get_context_parallel_world_size,

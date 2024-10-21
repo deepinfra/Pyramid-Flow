@@ -7,8 +7,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
 from diffusers.utils import export_to_video
-from pyramid_dit import PyramidDiTForVideoGeneration
-from trainer_misc import init_distributed_mode, init_sequence_parallel_group
+from .pyramid_dit import PyramidDiTForVideoGeneration
+from .trainer_misc import init_distributed_mode, init_sequence_parallel_group
 import PIL
 from PIL import Image
 

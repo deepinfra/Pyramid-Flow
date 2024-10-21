@@ -4,7 +4,7 @@ import gradio as gr
 import torch
 import PIL
 from PIL import Image
-from pyramid_dit import PyramidDiTForVideoGeneration
+from .pyramid_dit import PyramidDiTForVideoGeneration
 from diffusers.utils import export_to_video
 from huggingface_hub import snapshot_download
 import threading
